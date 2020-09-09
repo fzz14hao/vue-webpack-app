@@ -21,7 +21,7 @@ yarn run dev & npm run dev
 yarn run build & npm run build
 ```
 
-###目录结构
+### 目录结构
 ```
 │  
 ├── package.json
