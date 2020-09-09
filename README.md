@@ -21,14 +21,48 @@ yarn run dev & npm run dev
 yarn run build & npm run build
 ```
 
-###  测试
+###目录结构
 ```
-yarn run test & npm run test
-```
+│  
+├── package.json
+├── postcss.config.js     //自动填充css头
+├── public
+│   ├── favicon.ico
+│   └── index.html
+├── src
+│   ├── App.vue
+│   ├── api               //api接口
+│   │   ├── README.md
+│   │   └── shop.js
+│   ├── assets            //本地图片
+│   │   └── logo.png
+│   ├── components        //模板
+│   │   ├── ProductList.vue
+│   │   └── ShoppingCart.vue
+│   ├── index.html         //模板文件
+│   ├── index.js           //入口文件
+│   ├── pages              //页面
+│   │   ├── Index.vue
+│   │   └── User.vue
+│   ├── router             //路由
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── routes.js
+│   ├── store              //store
+│   │   ├── README.md
+│   │   ├── index.js
+│   │   └── modules        //store分模块
+│   │       ├── cart.js    //购物车
+│   │       └── products.js//产品列表
+│   └── utils              //工具函数
+│       └── README.md
+├── webpack                //webpack配置
+│   ├── paths.js           //目录
+│   ├── webpack.common.js  //公用配置
+│   ├── webpack.dev.js     //开发配置
+│   └── webpack.prod.js    //生产配置
+└── yarn.lock
 
-### 检测
-```
-yarn run lint & npm run lint
 ```
 
 ### 更多配置
