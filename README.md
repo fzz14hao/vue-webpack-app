@@ -1,10 +1,9 @@
-#  基于vue-cli创建的工程 vue脚手架
+# vue脚手架
 
-## 安装依赖
+## 说明
 ```
- 基于vue-cli创建的工程 vue脚手架 可以自定义配置vue.config.js
- 此工程带有一个vuex 添加购物车实例
- vue-cli + vue-router + vux + less
+ vue webpack 自定义脚手架 支持多进程打包
+ vue +webpack + vue-router + vux + less
 ```
 
 ## 安装依赖
