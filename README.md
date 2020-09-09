@@ -5,6 +5,17 @@
  vue webpack 自定义脚手架 支持多进程打包
  vue +webpack + vue-router + vux + less
 ```
+### 源码地址
+```
+https://github.com/fzz14hao/vue-webpack-app
+
+```
+
+### 使用项目
+```
+git clone https://github.com/fzz14hao/vue-webpack-app.git
+
+```
 
 ## 安装依赖
 ```
